@@ -6,6 +6,21 @@ body {
 
     font-family: 'Outfit', sans-serif;
     font-weight: 400;
+    font-size: 15px;
+
+    background-color: var(--light-gray);
+}
+
+.qr-component {
+    display: flex;
+    flex-direction: column;
+
+    color: var(--grayish-blue);
+    background-color: var(--white);
+
+    h1 {
+        color: var(--dark-blue);
+    }
 }
 
 .attribution { 
